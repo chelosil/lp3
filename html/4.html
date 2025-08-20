@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tablas en html</title>
+    <style>
+      table,
+      th,
+      td {
+        border: 1px solid red;
+        border-collapse: collapse;
+        padding: 15px;
+      }
+    </style>
+    <style>
+      #t2 {
+        width: 100%;
+        background-color: darkkhaki;
+      }
+
+      #t2 tr:nth-child(even) {
+        background-color: darkslategray;
+      }
+
+      #t2 tr:nth-child(odd) {
+        background-color: dodgerblue;
+      }
+
+      #t2 th {
+        color: forestgreen;
+        background-color: #e6e6e6;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Tabla1 en html</h1>
+    <table style="width: 100%;">
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+      </tr>
+      <tr>
+        <td>Daniel</td>
+        <td>Bordón</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td>Juan</td>
+        <td>Perez</td>
+        <td>33</td>
+      </tr>
+    </table>
+    <h1>Tabla2 en html</h1>
+    <table id="t2">
+      <tr>
+        <th>Nombre</th>
+        <th>Apellido</th>
+        <th>Edad</th>
+      </tr>
+      <tr>
+        <td>Daniel</td>
+        <td>Bordón</td>
+        <td>32</td>
+      </tr>
+      <tr>
+        <td>Juan</td>
+        <td>Perez</td>
+        <td>33</td>
+      </tr>
+    </table>
+  </body>
+</html>
