@@ -1,0 +1,38 @@
+.title::first-letter {
+    color: darkred;
+    font-size: 2em;
+
+}
+
+.title::first-line{
+    color: violet;
+    font-size: 1em;    
+}
+
+.inline {
+    display: block
+}
+
+.inline::first-letter {
+    color: darkred;
+    font-size: 2em;
+
+}
+
+.text::selection {
+    color: rgb(228, 27, 120);
+    background-color: rgb(107, 107, 233);
+
+}
+
+.guaranies::before {
+    content: "₲ ";
+    color: rgb(1, 49, 1);
+
+}
+
+.guaranies::after {
+    content: "0.000 ";
+    color: rgb(120, 235, 120);
+
+}

@@ -1,0 +1,51 @@
+/* Maquetar con BEM */
+.titulo {
+    text-align: center;
+    font-size: 3em;
+    background-color: blueviolet;
+    height: 70px;
+    padding: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.cabecera {
+    background-color: rgb(235, 80, 144);
+    height: 60px;
+}
+
+.cabecera-menu {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
+.cabecera-menu__item {
+    line-height: 3;       
+}
+
+.cabecera-menu__item:active{
+    background-color: rgb(230, 14, 14);
+}
+
+.cabecera-menu__link {
+    text-decoration: none;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+.principal {
+    background-color: rgb(168, 158, 163);
+    height: 250px;    
+}
+
+.piedepagina {
+    background-color: rgb(32, 32, 32);
+    color: white;
+    height: 75px;
+}
+

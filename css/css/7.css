@@ -1,0 +1,23 @@
+/* Posiciones en css 
+- Relative
+- Absolute
+- Fixed 
+- Sticky
+- z-index*/
+
+/* Posición Relativo */
+.box-1{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(21, 131, 221);
+    border: 2 px solid black;
+    margin: 2em;
+    position: relative;    
+    left: 30px;    
+    top: 50px;
+    right: 20px;
+}
+
+
+
+

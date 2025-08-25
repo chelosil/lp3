@@ -1,0 +1,25 @@
+.flex-container {
+    background-color: lightcoral;
+    padding: .5em;
+    display: inline-flex;
+    /*flex-direction: row; propiedad por defecto*/
+    /*flex-direction: row-reverse; revertir el orden normal*/
+    /*flex-direction: column; colocar los elementos en columna*/
+    /*flex-direction: column-reverse; */
+    flex-wrap: nowrap; /*propiedad por defecto, no permite que los elementos se muevan a otra fila*/
+    /*flex-wrap: wrap; permite que los elementos se muevan a otra fila*/
+    /*flex-wrap: wrap-reverse; permite que los elementos se muevan a otra fila, pero la nueva fila se coloca arriba*/
+    /*flex-wrap: unset; valor por defecto*/
+    gap: .5em; /*espacio entre los elementos*/
+    justify-content: center; /*alinear los elementos horizontalmente: flex-start, flex-end*/
+}
+
+.flex-item{
+    width: 50px;
+    height: 50px;
+    margin: .5em;
+    background-color: rgb(42, 183, 230);
+    line-height: 50px;
+    text-align: center;
+    color: white;
+}

@@ -1,0 +1,27 @@
+.box {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    position: relative;
+}
+
+.box1 {
+    background-color: rgb(83, 146, 219);
+    z-index: 1;
+}
+
+.box2 {
+    background-color: rgba(204, 6, 16, 0.774);
+    top: -50px;
+    left: 50px;
+    z-index: 2;
+    
+}
+
+.box3 {
+    background-color: rgb(245, 75, 52);
+    top: -100px;
+    left: 100px;
+    z-index: 3;
+}   

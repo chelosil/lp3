@@ -1,0 +1,9 @@
+/*Listas*/
+.listas {
+    list-style-type: disc;
+}    
+
+.listas__item {
+    float: left;
+    padding-right: 2em;
+}

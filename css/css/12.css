@@ -1,0 +1,10 @@
+.inline {
+    background-color: darkgreen;
+    margin-right: 3em;
+    display: block;
+}
+
+.block {
+    background-color: darkred;
+    
+}

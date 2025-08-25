@@ -1,0 +1,13 @@
+/* imagenes */
+.img {
+    max-width: 100%;
+    height: auto;
+}
+
+.img_center {
+    max-width: 100%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto
+
+}

@@ -1,0 +1,19 @@
+/* Posiciones en css 
+- Fixed 
+- Sticky
+- z-index*/
+
+/* Posición Relativo */
+body {
+    padding-top: 4em;
+}
+
+.menu {
+    background-color: rgb(80, 80, 243);
+    padding: .5em;
+    text-align: center;
+    font-size: 4em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
