@@ -1,0 +1,12 @@
+body{
+  background-image: radial-gadient(circle,#3a1957,#b94bf8);
+}
+
+label{
+  margin-bottom: .1em;
+  margin-top: .5em;
+}
+
+.container{
+  margin:50px auto;
+}
